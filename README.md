@@ -33,9 +33,9 @@ Example 1 : Suppose table with pair of symmetric legs, assign black color to fir
 Example 2 : Suppose chair with four symmetric legs, assign black and red color to each pair respectively.
 
 - Mapping :
-Go to ICP directory inside project and perform below steps 
-	2.1. Run function runner("mesh_file.smf") from matlab code folder.
-	2.2  It will generate "mesh_file_mapping.smf" in same directory where "mesh_file.smf" is placed.
+Go to ICP directory inside project and perform below steps
+- - 2.1. Run function runner("mesh_file.smf") from matlab code folder.
+- - 2.2  It will generate "mesh_file_mapping.smf" in same directory where "mesh_file.smf" is placed.
 	Example : 
 ```
 runner('meshs/newbigTable-catmull.obj');
