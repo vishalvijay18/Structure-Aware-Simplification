@@ -1,4 +1,4 @@
-# Structure Aware Simplification
+# Structure Aware Mesh Simplification
 This is the repository for CMPT 764 course project.
 
 ###Abstract
