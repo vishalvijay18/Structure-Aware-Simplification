@@ -32,12 +32,18 @@ Manually segment symmetric parts of given mesh, assign black (source) and red(ta
 Example 1 : Suppose table with pair of symmetric legs, assign black color to first leg vertex and red color to second leg.
 Example 2 : Suppose chair with four symmetric legs, assign black and red color to each pair respectively.
 
-- Mapping :
+- Mapping:
 Go to ICP directory inside project and perform these steps - 1. Run function runner("mesh_file.smf") from matlab code folder. 2.  It will generate "mesh_file_mapping.smf" in same directory where "mesh_file.smf" is placed.
  Example : 
 ```
 runner('meshs/newbigTable-catmull.obj');
 Output file : newbigTable-catmull-mapping.txt (in meshs directory)
+```
+- Decimation:
+Go to StructureAware directory and run below command to compile and run
+```
+make
+./run_project
 ```
 
 
