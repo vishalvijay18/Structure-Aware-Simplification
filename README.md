@@ -50,7 +50,7 @@ make
   2. Load a mapping file corresponding to the smf file  uploaded in previous step(genertaed in step 2) from UI. Note: Mapping file is not compulsory. Code will work without it as well ignoring symmetric decimation.
   3. Assign K = 8 for Multiple choice scheme.
   4. Give no. of collapse iteration to run in text box.
-  5. For Decimation, we have two choice.
+  5. For Decimation, we have two choice.  
    Click on Decimate - It will perform decimation based on normal multiple choice scheme.  
    Click on Shape Preserve - It will perform decimation based on Structure preservation algorithm.  
   6. You can explore other part of GUI, they are self explanatory and as per given assignment.
