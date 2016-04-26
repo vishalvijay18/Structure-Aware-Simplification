@@ -54,5 +54,17 @@ make
    Click on Decimate - It will perform decimation based on normal multiple choice scheme.  
    Click on Shape Preserve - It will perform decimation based on Structure preservation algorithm.  
   6. You can explore other part of GUI, they are self explanatory and as per given assignment.
+  7. Also, we provided one button namely 'GO', to perform continous simplification upto certain level after which shape may start distorting.  
 
+###Demo Run:
+---
+```
+cd ./StructureAware directory
+make
+./run_project
+```
+- load newbigTable-catmull.smf from sampleMesh directory
+- load newbigTable-catmull-mapping.txt from current directory (This is pre generated mapping for demo purpose, if you want you can generate as explained in step 2 )
+- Specify K and num. of collapse iteration.
+- Click on Shape Preserve for decimations.
 
