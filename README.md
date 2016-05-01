@@ -68,3 +68,6 @@ make
 - Specify K and num. of collapse iteration.
 - Click on Shape Preserve for decimations.
 
+###References:
+[Course Page](http://www.cs.sfu.ca/~haoz/teaching/cmpt464/)
+
