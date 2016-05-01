@@ -56,7 +56,7 @@ make
   6. You can explore other part of GUI, they are self explanatory and as per given assignment.
   7. Also, we provided one button namely 'GO', to perform continous simplification upto certain level after which shape may start distorting.  
 
-###Demo Run:
+###Demo Run
 ---
 ```
 cd ./StructureAware directory
@@ -68,7 +68,7 @@ make
 - Specify K and num. of collapse iteration.
 - Click on Shape Preserve for decimations.
 
-###References:
+###References
 ---
 [Course Page](http://www.cs.sfu.ca/~haoz/teaching/cmpt464/)
 
