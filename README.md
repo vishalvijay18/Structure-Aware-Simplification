@@ -47,7 +47,7 @@ make
 ```
 - Steps to test Decimation :
   1. Load a .smf mesh using open button of GUI.
-  2. Load a mapping file corresponding to the smf file  uploaded in previous step(genertaed in step 2) from UI. Note: Mapping file is not compulsory. Code will work without it as well ignoring symmetric decimation.
+  2. Load a mapping file corresponding to the smf file  uploaded in previous step(genertaed in step 2) from UI. Note: Mapping file is not compulsory. Code will work without it as well, ignoring symmetric decimation.
   3. Assign K = 8 for Multiple choice scheme.
   4. Give no. of collapse iteration to run in text box.
   5. For Decimation, we have two choice.  
