@@ -1,7 +1,7 @@
 # Structure Aware Mesh Simplification
 This is the repository for CMPT 764 course project.
 
-###Abstract
+Abstract
 ---
 This repository contains implementation of an approach to mesh simplification which uses structure information of object to preserve key features like symmetry and perpendicularity while decimation. We first gather data about symmetrical parts of object mesh, build correspondence among vertices of symmetrical parts, and feed this information to decimation framework. Near planar triangular faces are grouped together under a planar proxy which is then used in multifarious structure preserving rules. An experiment is performed comparing proposed method with that of multiple choice scheme for decimation and results show better performance.
 
