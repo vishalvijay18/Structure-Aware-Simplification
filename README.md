@@ -5,7 +5,7 @@ Abstract
 ---
 This repository contains implementation of an approach to mesh simplification which uses structure information of object to preserve key features like symmetry and perpendicularity while decimation. We first gather data about symmetrical parts of object mesh, build correspondence among vertices of symmetrical parts, and feed this information to decimation framework. Near planar triangular faces are grouped together under a planar proxy which is then used in multifarious structure preserving rules. An experiment is performed comparing proposed method with that of multiple choice scheme for decimation and results show better performance.
 
-###Steps for setup on Ubuntu (15.10)
+Steps for setup on Ubuntu (15.10)
 ---
 You will need to install OpenGL and GLUI libraries for running codes in this repository.
 
@@ -23,7 +23,7 @@ sudo dpkg -i libglui2c2_2.36-4ubuntu1_amd64.deb
 sudo dpkg -i libglui-dev_2.36-4ubuntu1_amd64.deb
 ```
 
-###Execution steps
+Execution steps
 ---
 Prerequisites : OpenGl, GLUT, GLUI, GLU
 
